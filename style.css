@@ -2281,6 +2281,7 @@ body {
     .slider .slides .slide-title {
       margin: 0;
       color: white;
+		text-shadow: 1px 2px #fd5926;
       font-size: 90px;
       font-size: 5.625em;
       font-weight: 900;
