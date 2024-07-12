@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -21,7 +20,7 @@
 
 	</head>
 
-	<body class="header-collapse">--
+	<body class="header-collapse">
 		
 		<div id="site-content">
 			<header class="site-header">
@@ -59,7 +58,8 @@
 
 								<a href="#about" class="button cut-corner">Read More</a>
 							</div>
-				</li>
+						</li>
+
 						<li class="lazy-bg" data-background="images/slide-1.jpg">
 							<div class="container">
 								<h2  class="slide-title">Boost Your Internet Experience</h2>
@@ -193,22 +193,22 @@
 					<div class="hero">
 						<div class="container" id="Downloads">
 							<div class="hero-content">
-								<h2 class="section-title">Download <em  style="color:#fd5927"> Now</em></h2>
+								<h2 class="section-title">Download <em style="color:#fd5927"> Now</em></h2>
 								
 								<p>
 									Download NetBoltZ today and experience blazing-fast Speeds! <br>
 									Say goodbye to slow internet and buffering woes! NetBoltZ is designed to to optimise your connection
 									for faster browsing, streaming, gaming and so much more... <br>
 									Available For: Android versions 5 and above
-									<br><em  style="color:#fd5927">Download Now!👇👇</em><br>
+									<br> <em style="color:#fd5927">Download Now!👇👇</em><br>
 									Link: Coming Soon...
 								</p>
 							</div>
 	
-							<img style="height: 700px; width: auto;" src="images/app.png" alt="" class="iphone">
+							<img style="height: 700px; width: auto;" src="images/app.jpg" alt="" class="iphone">
+							
 	
-	
-						</div>
+						</div><br><br><br><br><br><br>
 					</div>
 				</div> 
 
@@ -289,8 +289,8 @@
 						<div class="row">
 							<div class="col-md-6">
 								<form name="form" method="post" action="mail.php" class="contact-form">
-									<input id="name" name="name" type="text" placeholder="Your name...">
-									<input id="email" name="email" type="text" placeholder="Email Address...">
+									<input name="name" type="text" placeholder="Your name...">
+									<input name="email" type="text" placeholder="Email Address...">
 									<!--<select class="form-control" name="countryCode" id="sel1">
                                         <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                                         <option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -508,10 +508,20 @@
                                         <option data-countryCode="ZW" value="263">Zimbabwe (+263)</option>
                                 	</select>
 									<input type="text" placeholder="Phone number">-->
-									<textarea id="message" name="message" placeholder="Message..."></textarea>
-									<input class="button cut-corner" type="submit" value=Send Message">		
+									<textarea name="message" placeholder="Message..."></textarea>
+									<input class="button cut-corner" type="submit" value="Send message">		
 								</form>
-						
+								<script>
+									function validateForm() {
+  										var x = document.forms["form"]["name"].value;
+										var y = document.forms["form"]["email"].value;
+										var z = document.forms["form"]["message"].value;
+										if (x == "" || y == "" || z == "") {
+											alert("Name, email and message must be filled out");
+											return false;
+										}
+									}
+								</script>
 							</div>
 							<div class="col-md-6" style="color: white;">
 									<h2 style="font-size: 30px;">More About <em style="color:#fd5927">App</em></h2>
