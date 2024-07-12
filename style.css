@@ -2276,7 +2276,9 @@ body {
     /* line 19, sass/pages/_homepage.scss */
     .slider .slides .container {
       padding: 200px 0;
-      text-align: center; }
+      text-align: center; 
+    height: 80%;
+    }
     /* line 24, sass/pages/_homepage.scss */
     .slider .slides .slide-title {
       margin: 0;
