@@ -182,6 +182,12 @@ h6 {
 abbr[title] {
   border-bottom: 1px dotted; }
 
+.slde{
+	width: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
 /* line 204, sass/libs/_normalize.scss */
 b,
 strong {
