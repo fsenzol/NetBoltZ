@@ -187,6 +187,16 @@ abbr[title] {
 	position: relative;
 	overflow: hidden;
 }
+.imgs{
+	display: flex;
+}
+.imgs img{
+	transition: all 0.15s ease
+}
+
+.imgs input{
+	display: none;
+}
 
 /* line 204, sass/libs/_normalize.scss */
 b,
