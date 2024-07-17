@@ -110,6 +110,18 @@ h2 {
     font-weight: 300;
     margin: 0 0 10px; }
 /*hero*/
+/*video*/
+.video-container {
+  position: relative;
+}
+.video-thumbnail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .features-section {
   text-align: center; }
